@@ -1,0 +1,73 @@
+body {
+    background-image: url("airport.jpg");
+    background-size: cover;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+h2 {
+    font-size: 50px;
+    margin: 0 20px; /* Adjust space around the h2 */
+}
+
+.counter {
+    background-color: skyblue;
+    border-radius: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid black;
+
+}
+
+button {
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.increment-decrement-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 50px;
+}
+
+#increment-btn {
+    background: green;
+    width: 50px;
+    margin-right: 20px; /* Add space between increment and h2 */
+}
+
+#decrement-btn {
+    background: red;
+    width: 50px;
+    margin-left: 20px; /* Add space between decrement and h2 */
+}
+
+#save-btn {
+    background: blue;
+    width: 100px;
+}
+
+#reset-btn {
+    background-color: gray;
+    width: 100px;
+}
+
+#clear-btn{
+    width: 100px;
+}
