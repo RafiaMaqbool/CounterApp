@@ -14,17 +14,16 @@ h1 {
 
 h2 {
     font-size: 50px;
-    margin: 0 20px; /* Adjust space around the h2 */
+    margin: 0 20px;
 }
 
 .counter {
     background-color: skyblue;
     border-radius: 20px;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+    margin: 50px auto; 
+    padding: 30px;
     text-align: center;
     border: 3px solid black;
 
@@ -36,6 +35,8 @@ button {
     color: white;
     font-weight: bold;
     border-radius: 5px;
+    border: 2px solid black;
+
 }
 
 .increment-decrement-wrapper {
@@ -47,19 +48,19 @@ button {
 }
 
 #increment-btn {
-    background: green;
+    background: #49bf60;
     width: 50px;
-    margin-right: 20px; /* Add space between increment and h2 */
+    margin-right: 20px;
 }
 
 #decrement-btn {
-    background: red;
+    background: #bf5849;
     width: 50px;
-    margin-left: 20px; /* Add space between decrement and h2 */
+    margin-left: 20px; 
 }
 
 #save-btn {
-    background: blue;
+    background: navy;
     width: 100px;
 }
 
@@ -69,5 +70,6 @@ button {
 }
 
 #clear-btn{
+    background-color: #aa3dd9;
     width: 100px;
 }
